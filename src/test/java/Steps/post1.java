@@ -14,6 +14,7 @@ public class post1 {
     @When("I type the message as {string} in the text box")
     public void iTypeTheMessageAsInTheTextBox(String text) {
         System.out.println(text);
+        System.out.println("I am testing this part");
     }
 
     @And("Click on the Post button")
